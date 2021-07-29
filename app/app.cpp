@@ -1,5 +1,7 @@
 #include <iostream>
-#include <Speak/Speak.h>
+
+#include <jack/speak/Speak.h>
+#include <jack/maths/Maths.h>
 
 int main()
 {
@@ -10,9 +12,14 @@ int main()
 
         std::cin >> num;
 
-        std::string val = speak::getNumberedPhrase(num);
-
-        std::cout << val << std::endl;
+        if (num < 10)
+            std::cout << speak::getNumberedPhrase(num) << std::endl;
+        else if (num < 20)
+            std::cout << maths::square(num) << std::endl;
+        else if (num < 30)
+            std::cout << maths::squareRoot(num) << std::endl;
+        else
+            std::cout << maths::cubed(num) << std::endl;
     }
 
     return 0;

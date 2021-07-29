@@ -1,8 +1,6 @@
-#include "Speak/Speak.h"
-
+#include "NumToText.h"
 namespace speak
 {
-
     std::string getNumberedPhrase(int number)
     {
         switch (number)
@@ -28,5 +26,4 @@ namespace speak
             break;
         }
     }
-
 }

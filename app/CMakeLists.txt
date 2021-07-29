@@ -1,3 +1,12 @@
-add_executable(PrintNum app.cpp)
+set(APPLICATION_SOURCES
+    app.cpp
+)
 
-target_link_libraries(PrintNum PRIVATE Speak)
+add_executable(Application app.cpp)
+
+set(JACK_LIBRARIES
+    speak
+    maths
+)
+
+target_link_libraries(Application PRIVATE "${JACK_LIBRARIES}")
