@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.2)
 project(MyProject)
 
 include(CTest)
+enable_testing()
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 

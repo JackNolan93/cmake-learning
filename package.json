@@ -1,0 +1,36 @@
+{
+  "name": "cmake-learning",
+  "version": "1.0.0",
+  "description": "practice cmake project",
+  "main": "index.js",
+  "author": "Jack Nolan",
+  "license": "ISC",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "help": "node documentation/help.js",
+    "clean": "node builder/build.js clean",
+    "generate": "node builder/build.js generate",
+    "build": "node builder/build.js build",
+    "build-debug": "node builder/build.js build Debug",
+    "test": "node builder/build.js test",
+    "test-debug": "node builder/build.js test Debug",
+    "all": "node builder/build.js all",
+    "all-debug": "node builder/build.js all Debug",
+    "lint": "eslint -c .eslintrc.json 'tests/**/*.ts'",
+    "unit-tests": "npm run test",
+    "unit-tests-debug": "npm run test-debug"
+  },
+  "dependencies": {
+    "yargs": "^15.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackNolan93/cmake-learning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JackNolan93/cmake-learning/issues"
+  },
+  "homepage": "https://github.com/JackNolan93/cmake-learning#readme"
+}

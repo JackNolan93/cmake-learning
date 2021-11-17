@@ -1,0 +1,33 @@
+Start testing: Oct 07 10:17 BST
+----------------------------------------------------------
+1/2 Testing: MathsTests
+1/2 Test: MathsTests
+Command: "/Users/jack.nolan/developer/cmake-learning/build/tests/Release/mathsTests"
+Directory: /Users/jack.nolan/developer/cmake-learning/build/tests
+"MathsTests" start time: Oct 07 10:17 BST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.65 sec
+----------------------------------------------------------
+Test Passed.
+"MathsTests" end time: Oct 07 10:17 BST
+"MathsTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: SpeakTests
+2/2 Test: SpeakTests
+Command: "/Users/jack.nolan/developer/cmake-learning/build/tests/Release/speakTests"
+Directory: /Users/jack.nolan/developer/cmake-learning/build/tests
+"SpeakTests" start time: Oct 07 10:17 BST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Passed.
+"SpeakTests" end time: Oct 07 10:17 BST
+"SpeakTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 07 10:17 BST

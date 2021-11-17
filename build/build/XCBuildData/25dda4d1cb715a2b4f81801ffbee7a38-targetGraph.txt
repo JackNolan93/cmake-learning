@@ -1,0 +1,23 @@
+Target dependency graph (7 targets)
+ZERO_CHECK in MyProject
+speak in MyProject, depends on:
+ZERO_CHECK in MyProject (explicit)
+maths in MyProject, depends on:
+ZERO_CHECK in MyProject (explicit)
+Application in MyProject, depends on:
+speak in MyProject (explicit)
+maths in MyProject (explicit)
+ZERO_CHECK in MyProject (explicit)
+speakTests in MyProject, depends on:
+speak in MyProject (explicit)
+ZERO_CHECK in MyProject (explicit)
+mathsTests in MyProject, depends on:
+maths in MyProject (explicit)
+ZERO_CHECK in MyProject (explicit)
+ALL_BUILD in MyProject, depends on:
+Application in MyProject (explicit)
+speak in MyProject (explicit)
+maths in MyProject (explicit)
+speakTests in MyProject (explicit)
+mathsTests in MyProject (explicit)
+ZERO_CHECK in MyProject (explicit)

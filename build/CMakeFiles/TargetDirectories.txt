@@ -1,0 +1,16 @@
+/Users/jack.nolan/developer/cmake-learning/build/CMakeFiles/RUN_TESTS.dir
+/Users/jack.nolan/developer/cmake-learning/build/CMakeFiles/NightlyMemoryCheck.dir
+/Users/jack.nolan/developer/cmake-learning/build/CMakeFiles/Nightly.dir
+/Users/jack.nolan/developer/cmake-learning/build/CMakeFiles/Continuous.dir
+/Users/jack.nolan/developer/cmake-learning/build/CMakeFiles/Experimental.dir
+/Users/jack.nolan/developer/cmake-learning/build/CMakeFiles/ALL_BUILD.dir
+/Users/jack.nolan/developer/cmake-learning/build/CMakeFiles/ZERO_CHECK.dir
+/Users/jack.nolan/developer/cmake-learning/build/app/CMakeFiles/RUN_TESTS.dir
+/Users/jack.nolan/developer/cmake-learning/build/app/CMakeFiles/Application.dir
+/Users/jack.nolan/developer/cmake-learning/build/modules/speak/CMakeFiles/RUN_TESTS.dir
+/Users/jack.nolan/developer/cmake-learning/build/modules/speak/CMakeFiles/speak.dir
+/Users/jack.nolan/developer/cmake-learning/build/modules/maths/CMakeFiles/RUN_TESTS.dir
+/Users/jack.nolan/developer/cmake-learning/build/modules/maths/CMakeFiles/maths.dir
+/Users/jack.nolan/developer/cmake-learning/build/tests/CMakeFiles/RUN_TESTS.dir
+/Users/jack.nolan/developer/cmake-learning/build/tests/CMakeFiles/speakTests.dir
+/Users/jack.nolan/developer/cmake-learning/build/tests/CMakeFiles/mathsTests.dir
